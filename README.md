@@ -1,4 +1,4 @@
-*Archived & No longer available*. Thanks for supporting me for a year long!
+# I'm trying to update this.
 
 # Polytoria Code snippets
 Code snippets for Polytoria
