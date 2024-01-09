@@ -1,4 +1,4 @@
-# I'm trying to update this.
+### I'll try to maintain this, PREY FOR ME!
 
 # Polytoria Code snippets
 Code snippets for Polytoria
