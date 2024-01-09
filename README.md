@@ -1,4 +1,4 @@
-### I'll try to maintain this, PREY FOR ME!
+### I'll try to maintain this, PRAY FOR ME!
 
 # Polytoria Code snippets
 Code snippets for Polytoria
