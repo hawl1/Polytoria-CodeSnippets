@@ -1,0 +1,14 @@
+{
+    "NPC.Died": {
+        "scope": "lua",
+        "prefix": "NPC.Died",
+        "body": [
+            "game["Environment"]["NPC"].Died:Connect(function ()
+            
+        end)"
+        ],
+        "description": "Check if NPC died"
+    },
+
+    
+}
