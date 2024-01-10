@@ -2,7 +2,7 @@
   "name": "polytoria-lua-snippets",
   "displayName": "Polytoria Lua Snippets ",
   "description": "Code snippet to create Polytoria game faster.",
-  "version": "0.0.4",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.85.0"
    },

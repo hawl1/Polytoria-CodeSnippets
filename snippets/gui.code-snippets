@@ -1,0 +1,10 @@
+{
+    "gui.Visible": {
+        "scope": "lua",
+        "prefix": ["gui.Visible"],
+        "body": [
+            "gui.Visible"
+        ],
+        "description": "Determines whether the GUI is visible or not."
+    },
+}

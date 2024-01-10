@@ -1,40 +1,44 @@
 {
-    "NPC.Died": {
+    "npc.Died": {
         "scope": "lua",
-        "prefix": ["NPC.Died"],
+        "prefix": ["npc.Died"],
         "body": [
             "game["Environment"]["NPC"].Died:Connect(function ()
-            
+           
         end)"
         ],
-        "description": "Check if NPC died"
+        "description": "Fires when the NPC dies."
     },
     "npc:ClearAppearance()": {
         "scope": "lua",
         "prefix": ["npc:ClearAppearance()"],
         "body": [
             "npc:ClearAppearance()"
-        ]
-    },
-    "npc:Jump": {
-        "scope": "lua",
-        "prefix": ["npc:Jump()"],
-        "body": [
-            "npc:Jump()"
-        ]
+        ],
+        "description": "Clears the NPC's appearance."
     },
     "npc:LoadAppearance": {
         "scope": "lua",
         "prefix": ["npc:LoadAppearance"],
         "body": [
             "npc:LoadAppearance()"
-        ]
+        ],
+        "description": "Loads the specified user ID's avatar on the NPC."
     },
     "npc:Respawn": {
         "scope": "lua",
         "prefix": ["npc:Respawn()"],
         "body": [
             "npc:Respawn()"
-        ]
-    }
+        ],
+        "description": "Respawn the NPC"
+    },
+    "npc.Anchored": {
+        "scope": "lua",
+        "prefix": ["npc.Anchored"],
+        "body": [
+            "npc.Anchored"
+        ],
+        "description": "Check if NPC is anchored"
+    },
 }

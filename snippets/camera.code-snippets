@@ -12,7 +12,8 @@
         "prefix": ["Camera.Distance"],
         "body": [
             "Camera.Distance"
-        ]
+        ],
+        "description": ""
     },
     "Camera.FOV": {
         "scope": "lua",

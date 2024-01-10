@@ -7,131 +7,131 @@
 		],
 		"description": "Creates a new NetMessage."
 	},
-	"netmsg.AddString": {
+	"NetMessage.AddString": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddString"],
+		"prefix": ["NetMessage.AddString"],
 		"body": [
-			"netmsg.AddString(${1:key},${2:val})"
+			"NetMessage.AddString(${1:key},${2:val})"
 		],
 		"description": "Sets a string value."
 	},
-	"netmsg.GetString": {
+	"NetMessage.GetString": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetString"],
+		"prefix": ["NetMessage.GetString"],
 		"body": [
-			"netmsg.GetString(${1:key})"
+			"NetMessage.GetString(${1:key})"
 		],
 		"description": "Gets a string value."
 	},
-	"netmsg.AddInt": {
+	"NetMessage.AddInt": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddInt"],
+		"prefix": ["NetMessage.AddInt"],
 		"body": [
-			"netmsg.AddInt(${1:key},${2:val})"
+			"NetMessage.AddInt(${1:key},${2:val})"
 		],
 		"description": "Sets a int value."
 	},
-	"netmsg.GetInt": {
+	"NetMessage.GetInt": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetInt"],
+		"prefix": ["NetMessage.GetInt"],
 		"body": [
-			"netmsg.GetInt(${1:key})"
+			"NetMessage.GetInt(${1:key})"
 		],
 		"description": "Gets a int value."
 	},
-	"netmsg.AddNumber": {
+	"NetMessage.AddNumber": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddNumber"],
+		"prefix": ["NetMessage.AddNumber"],
 		"body": [
-			"netmsg.AddNumber(${1:key},${2:val})"
+			"NetMessage.AddNumber(${1:key},${2:val})"
 		],
 		"description": "Sets a number value."
 	},
-	"netmsg.GetNumber": {
+	"NetMessage.GetNumber": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetNumber"],
+		"prefix": ["NetMessage.GetNumber"],
 		"body": [
-			"netmsg.GetNumber(${1:key})"
+			"NetMessage.GetNumber(${1:key})"
 		],
 		"description": "Gets a number value."
 	},
-	"netmsg.AddBool": {
+	"NetMessage.AddBool": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddBool"],
+		"prefix": ["NetMessage.AddBool"],
 		"body": [
-			"netmsg.AddBool(${1:key},${2:val})"
+			"NetMessage.AddBool(${1:key},${2:val})"
 		],
 		"description": "Sets a bool value."
 	},
-	"netmsg.GetBool": {
+	"NetMessage.GetBool": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetBool"],
+		"prefix": ["NetMessage.GetBool"],
 		"body": [
-			"netmsg.GetBool(${1:key})"
+			"NetMessage.GetBool(${1:key})"
 		],
 		"description": "Gets a bool value."
 	},
-	"netmsg.AddVector2": {
+	"NetMessage.AddVector2": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddVector2"],
+		"prefix": ["NetMessage.AddVector2"],
 		"body": [
-			"netmsg.AddVector2(${1:key},${2:val})"
+			"NetMessage.AddVector2(${1:key},${2:val})"
 		],
 		"description": "Sets a vector2 value."
 	},
-	"netmsg.GetVector2": {
+	"NetMessage.GetVector2": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetVector2"],
+		"prefix": ["NetMessage.GetVector2"],
 		"body": [
-			"netmsg.GetVector2(${1:key})"
+			"NetMessage.GetVector2(${1:key})"
 		],
 		"description": "Gets a vector2 value."
 	},
-	"netmsg.AddVector3": {
+	"NetMessage.AddVector3": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddVector3"],
+		"prefix": ["NetMessage.AddVector3"],
 		"body": [
-			"netmsg.AddVector3(${1:key},${2:val})"
+			"NetMessage.AddVector3(${1:key},${2:val})"
 		],
 		"description": "Sets a vector3 value."
 	},
-	"netmsg.GetVector3": {
+	"NetMessage.GetVector3": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetVector3"],
+		"prefix": ["NetMessage.GetVector3"],
 		"body": [
-			"netmsg.GetVector3(${1:key})"
+			"NetMessage.GetVector3(${1:key})"
 		],
 		"description": "Gets a vector3 value."
 	},
-	"netmsg.AddColor": {
+	"NetMessage.AddColor": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddColor"],
+		"prefix": ["NetMessage.AddColor"],
 		"body": [
-			"netmsg.AddColor(${1:key},${2:val})"
+			"NetMessage.AddColor(${1:key},${2:val})"
 		],
 		"description": "Sets a color value."
 	},
-	"netmsg.GetColor": {
+	"NetMessage.GetColor": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetColor"],
+		"prefix": ["NetMessage.GetColor"],
 		"body": [
-			"netmsg.GetColor(${1:key})"
+			"NetMessage.GetColor(${1:key})"
 		],
 		"description": "Gets a color value."
 	},
-	"netmsg.AddInstance": {
+	"NetMessage.AddInstance": {
 		"scope": "lua",
-		"prefix": ["netmsg.AddInstance"],
+		"prefix": ["NetMessage.AddInstance"],
 		"body": [
-			"netmsg.AddInstance(${1:key},${2:val})"
+			"NetMessage.AddInstance(${1:key},${2:val})"
 		],
 		"description": "Sets a instance value."
 	},
-	"netmsg.GetInstance": {
+	"NetMessage.GetInstance": {
 		"scope": "lua",
-		"prefix": ["netmsg.GetInstance"],
+		"prefix": ["NetMessage.GetInstance"],
 		"body": [
-			"netmsg.GetInstance(${1:key})"
+			"NetMessage.GetInstance(${1:key})"
 		],
 		"description": "Gets a instance value."
 	},
