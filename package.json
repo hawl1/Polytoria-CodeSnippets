@@ -1,12 +1,12 @@
 {
-  "name": "polytoria-code-snippets",
-  "displayName": "Polytoria Code Snippets",
+  "name": "polytoria-lua-snippets",
+  "displayName": "Polytoria Lua Snippets ",
   "description": "Code snippet to create Polytoria game faster.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
    },
-   "publisher": "devpixels",
+   "publisher": "ItsLuiggiYahoo",
    "icon": "icon.png",
   "categories": [
     "Snippets"
