@@ -1,7 +1,7 @@
 {
     "NPC.Died": {
         "scope": "lua",
-        "prefix": "NPC.Died",
+        "prefix": ["NPC.Died"],
         "body": [
             "game["Environment"]["NPC"].Died:Connect(function ()
             
@@ -9,6 +9,32 @@
         ],
         "description": "Check if NPC died"
     },
-
-    
+    "npc:ClearAppearance()": {
+        "scope": "lua",
+        "prefix": ["npc:ClearAppearance()"],
+        "body": [
+            "npc:ClearAppearance()"
+        ]
+    },
+    "npc:Jump": {
+        "scope": "lua",
+        "prefix": ["npc:Jump()"],
+        "body": [
+            "npc:Jump()"
+        ]
+    },
+    "npc:LoadAppearance": {
+        "scope": "lua",
+        "prefix": ["npc:LoadAppearance"],
+        "body": [
+            "npc:LoadAppearance()"
+        ]
+    },
+    "npc:Respawn": {
+        "scope": "lua",
+        "prefix": ["npc:Respawn()"],
+        "body": [
+            "npc:Respawn()"
+        ]
+    }
 }

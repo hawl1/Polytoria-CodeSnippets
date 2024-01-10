@@ -1,0 +1,130 @@
+{
+    "Camera": {
+        "scope": "lua",
+        "prefix": ["Camera"],
+        "body": [
+            "Camera"
+        ],
+        "description": "Camera Class - Use this to control the player's camera."
+    },
+    "Camera.Distance": {
+        "scope": "lua",
+        "prefix": ["Camera.Distance"],
+        "body": [
+            "Camera.Distance"
+        ]
+    },
+    "Camera.FOV": {
+        "scope": "lua",
+        "prefix": ["Camera.FOV"],
+        "body": [
+            "Camera.FOV"
+        ]
+    },
+    "Camera.FastFlySpeed": {
+        "scope": "lua",
+        "prefix": ["Camera.FastFlySpeed"],
+        "body": [
+            "Camera.FastFlySpeed"
+        ]
+    },
+    "Camera.FlySpeed": {
+        "scope": "lua",
+        "prefix": ["Camera.FlySpeed"],
+        "body": [
+            "Camera.FlySpeed"
+        ]
+    },
+    "Camera.FollowLerp": {
+        "scope": "lua",
+        "prefix": ["Camera.FollowLerp"],
+        "body": [
+            "Camera.FollowLerp"
+        ]
+    },
+    "Camera.FreeLookSensitivity": {
+        "scope": "lua",
+        "prefix": ["Camera.FreeLookSensitivity"],
+        "body": [
+            "Camera.FreeLookSensitivity"
+        ]
+    },
+    "Camera.HorizontalSpeed": {
+        "scope": "lua",
+        "prefix": ["Camera.HorizontalSpeed"],
+        "body": [
+            "Camera.HorizontalSpeed"
+        ]
+    },
+    "Camera.IsFirstPerson": {
+        "scope": "lua",
+        "prefix": ["Camera.IsFirstPerson"],
+        "body": [
+            "Camera.IsFirstPerson"
+        ]
+    },
+    "Camera.LerpSpeed": {
+        "scope": "lua",
+        "prefix": ["Camera.LerpSpeed"],
+        "body": [
+            "Camera.LerpSpeed"
+        ]
+    },
+    "Camera.MaxDistance": {
+        "scope": "lua",
+        "prefix": ["Camera.MaxDistance"],
+        "body": [
+            "Camera.MaxDistance"
+        ]
+    },
+    "Camera.MinDistance": {
+        "scope": "lua",
+        "prefix": ["Camera.MinDistance"],
+        "body": [
+            "Camera.MinDistance"
+        ]
+    },
+    "Camera.Mode": {
+        "scope": "lua",
+        "prefix": ["Camera.Mode"],
+        "body": [
+            "Camera.Mode"
+        ]
+    },
+    "Camera.Orthographic": {
+        "scope": "lua",
+        "prefix": ["Camera.Orthographic"],
+        "body": [
+            "Camera.Orthographic"
+        ]
+    },
+    "Camera.OrthographicSize": {
+        "scope": "lua",
+        "prefix": ["Camera.OrthographicSize"],
+        "body": [
+            "Camera.OrthographicSize"
+        ]
+    },
+    "Camera.Position": {
+        "scope": "lua",
+        "prefix": ["Camera.Position"],
+        "body": [
+            "Camera.Position"
+        ]
+    },
+    "Camera.Rotation": {
+        "scope": "lua",
+        "prefix": ["Camera.Rotation"],
+        "body": [
+            "Camera.Rotation"
+        ]
+    },
+    "Camera.ScrollSensitivity": {
+        "scope": "lua",
+        "prefix": ["Camera.ScrollSensitivity"],
+        "body": [
+            "Camera.ScrollSensitivity"
+        ]
+    },
+    
+}
