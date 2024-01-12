@@ -4,7 +4,7 @@ Now your Polytoria games will fly with the new and updated Snippets.
 
 **TO-DO**
 - [] Update some of the snippets
-- [] Add GUI snippets
+- [x] Add GUI snippets
 
 <strong> NOTE: </strong>
 The code might give error, but the code is not wrong, all of the code is not included in the official Lua sintax, but it will work as normal on Polytoria Creator.
