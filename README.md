@@ -3,7 +3,7 @@
 Now your Polytoria games will fly with the new and updated Snippets.
 
 **TO-DO**
-- [] Update some of the snippets
+- [ ] Update some of the snippets
 - [x] Add GUI snippets
 
 <strong> NOTE: </strong>
