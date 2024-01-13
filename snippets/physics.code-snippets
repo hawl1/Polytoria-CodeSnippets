@@ -1,0 +1,10 @@
+{
+    "BodyPositon.AcceptableDistance": {
+        "scope": "lua",
+        "prefix": ["BodyPosition.AcceptableDistance"],
+        "body": [
+            "BodyPosition.AcceptableDistance"
+        ],
+        "description": "Determines how close the body has to be to the target position to stop applying forces to it."
+    },
+}
