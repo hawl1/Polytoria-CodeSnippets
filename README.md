@@ -24,6 +24,12 @@ Simple! Install it on the Visual Studio Marketplace, open your script and good c
 
 Create a issue, it's simple, you can create one clicking on the tab called issues above the files.
 
+> [!CAUTION]
+> We're not related in any way to the official POLYTORIA team.
+
+[!IMPORTANT]
+> This extension was forked and updated. > The original code Belongs to DevPixels(aka SK-FAST)
+
 
 **TO-DO**
 - [ ] Update some of the snippets
@@ -34,5 +40,3 @@ The code might give error, but the code is not wrong, all of the code is not inc
 
 If you want to change something or contribute, please create a pull request on [GitHub](https://github.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/)
 
-> [!IMPORTANT]
-> This extension was forked and updated. > The original code Belongs to DevPixels(aka SK-Fast).
