@@ -34,4 +34,5 @@ The code might give error, but the code is not wrong, all of the code is not inc
 
 If you want to change something or contribute, please create a pull request on [GitHub](https://github.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/)
 
-This extension was forked and updated. The original code Belongs to DevPixels(aka SK-Fast).
+> [!IMPORTANT]
+> This extension was forked and updated. > The original code Belongs to DevPixels(aka SK-Fast).
