@@ -1,4 +1,4 @@
-we# Polytoria VSCode Snippets
+# Polytoria VSCode Snippets
 
 ![logo](icon.png)
 
