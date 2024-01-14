@@ -9,6 +9,10 @@
 
 Now your Polytoria games will fly with the new and updated Snippets.
 
+
+> [!CAUTION]
+> We're not related in any way to the official POLYTORIA team. This project is made by the community.
+
 ---
 Welcome to the house of the new and updated Polytoria VSCode Snippets.
 
@@ -24,8 +28,6 @@ Simple! Install it on the Visual Studio Marketplace, open your script and good c
 
 Create a issue, it's simple, you can create one clicking on the tab called issues above the files.
 
-> [!CAUTION]
-> We're not related in any way to the official POLYTORIA team.
 
 > [!IMPORTANT]
 > This extension was forked and updated. The original code Belongs to DevPixels(aka SK-FAST)
