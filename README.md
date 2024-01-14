@@ -1,4 +1,4 @@
-# Polytoria VSCode Snippets
+we# Polytoria VSCode Snippets
 
 ![logo](icon.png)
 
@@ -27,7 +27,7 @@ Create a issue, it's simple, you can create one clicking on the tab called issue
 > [!CAUTION]
 > We're not related in any way to the official POLYTORIA team.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > This extension was forked and updated. > The original code Belongs to DevPixels(aka SK-FAST)
 
 
