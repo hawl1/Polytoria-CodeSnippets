@@ -28,7 +28,7 @@ Create a issue, it's simple, you can create one clicking on the tab called issue
 > We're not related in any way to the official POLYTORIA team.
 
 > [!IMPORTANT]
-> This extension was forked and updated. > The original code Belongs to DevPixels(aka SK-FAST)
+> This extension was forked and updated. The original code Belongs to DevPixels(aka SK-FAST)
 
 
 **TO-DO**
