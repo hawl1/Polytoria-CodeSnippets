@@ -20,6 +20,10 @@ A snippet is the little code suggestions on VSCode.
 
 Simple! Install it on the Visual Studio Marketplace, open your script and good coding!
 
+## HELP! I FOUND A BUG!!!!
+
+Create a issue, it's simple, you can create one clicking on the tab called issues above the files.
+
 
 **TO-DO**
 - [ ] Update some of the snippets
