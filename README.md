@@ -13,6 +13,8 @@ Now your Polytoria games will fly with the new and updated Snippets.
 > [!CAUTION]
 > We're not related in any way to the official POLYTORIA team. This project is made by the community.
 
+[Download Extension](https://marketplace.visualstudio.com/items?itemName=ItsLuiggiYahoo.polytoria-lua-snippets)
+
 ---
 Welcome to the house of the new and updated Polytoria VSCode Snippets.
 
