@@ -12,6 +12,8 @@ Now your Polytoria games will fly with the new and updated Snippets.
 
 > [!CAUTION]
 > We're not related in any way to the official POLYTORIA team. This project is made by the community.
+> [!IMPORTANT]
+> This extension was forked and updated to work with newer versions of both Polytoria Creator and Visual Code Studio, the original code belongs DevPixels(aka SK-FAST)
 
 [Download Extension](https://marketplace.visualstudio.com/items?itemName=ItsLuiggiYahoo.polytoria-lua-snippets)
 
@@ -29,10 +31,6 @@ Simple! Install it on the Visual Studio Marketplace, open your script and good c
 ## HELP! I FOUND A BUG!!!!
 
 Create a issue, it's simple, you can create one clicking on the tab called issues above the files.
-
-
-> [!IMPORTANT]
-> This extension was forked and updated. The original code Belongs to DevPixels(aka SK-FAST)
 
 
 **TO-DO**
