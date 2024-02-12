@@ -1,5 +1,7 @@
 # Change Log
 
-## [0.0.6]
+## [0.0.10]
 
-- Edit NetMessage scripts
+- Remove quick-acess snippet
++ Added Instances
++ Added file snippets

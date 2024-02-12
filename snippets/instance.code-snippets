@@ -191,5 +191,93 @@
             ".Shared"
         ],
         "description": "An empty table you can use to hold metadata about anything on any object or player you want."
-    }
+    },
+    ".LookAt": {
+        "scope": "lua",
+        "prefix": [".LookAt"],
+        "body": [
+            ".LookAt()"
+        ],
+        "description": "Rotates the DynamicInstance so that the forward vector looks at the target."
+    },
+    ".Translate": {
+        "scope": "lua",
+        "prefix": [".Translate"],
+        "body": [
+            ".Translate"
+        ],
+        "description": "Moves the transform in the direction and distance of translation."
+    },
+    ".Forward": {
+        "scope": "lua",
+        "prefix": [".Forward"],
+        "body": [
+            ".Forward"
+        ],
+        "description": "The forward vector of this DynamicInstance"
+    },
+    ".LocalPosition": {
+        "scope": "lua",
+        "prefix": [".LocalPosition"],
+        "body": [
+            ".LocalPosition"
+        ],
+        "description": "Specifies the position relative to the parent of an instance."
+    },
+    ".LocalRotation": {
+        "scope": "lua",
+        "prefix": [".LocalRotation"],
+        "body": [
+            ".LocalRotation"
+        ],
+        "description": "Specifies the rotation relative to the parent of an instance."
+    },
+    ".LocalSize": {
+        "scope": "lua",
+        "prefix": [".LocalSize"],
+        "body": [
+            ".LocalSize"
+        ],
+        "description": "The size of the instance relative to its parent."
+    },
+    ".Position": {
+        "scope": "lua",
+        "prefix": [".Position"],
+        "body": [
+            ".Position"
+        ],
+        "description": "Specifies the position of an instance."
+    },
+    ".Right": {
+        "scope": "lua",
+        "prefix": [".Right"],
+        "body": [
+            ".Right"
+        ],
+        "description": "The right vector of this DynamicInstance"
+    },
+    ".Rotation": {
+        "scope": "lua",
+        "prefix": [".Rotation"],
+        "body": [
+            ".Rotation"
+        ],
+        "description": "Specifies the rotation of an instance."
+    },
+    ".Size": {
+        "scope": "lua",
+        "prefix": [".Size"],
+        "body": [
+            ".Size"
+        ],
+        "description": "Specifies the size of an instance."
+    },
+    ".Up": {
+        "scope": "lua",
+        "prefix": [".Up"],
+        "body": [
+            ".Up"
+        ],
+        "description": "The Y axis of this DynamicInstance"
+    },
 }

@@ -1,0 +1,66 @@
+{
+    "['Environment']": {
+        "scope": "lua",
+        "prefix": ["game['Environment']"],
+        "body": [
+            "game['Environment']"
+        ],
+        "description": ""
+    },
+    "['Lightning']": {
+        "scope": "lua",
+        "prefix": ["game['Lightning']"],
+        "body": [
+            "game['Lightning']"
+        ],
+        "description": "Access Lightning using Script"
+    },
+    "['Players']": {
+        "scope": "lua",
+        "prefix": ["game['Players']"],
+        "body": [
+            "game['Players']"
+        ],
+        "description": "Access the Players folder using script"
+    },
+    "['ScriptService']": {
+        "scope": "lua",
+        "prefix": ["game['ScriptService']"],
+        "body": [
+            "game['ScriptService']"
+        ],.
+        "description": "Access the ScriptService, using a script"
+   },
+   "['Hidden']": {
+    "scope": "lua",
+    "prefix": ["game['Hidden']"],
+    "body": [
+        "game['Hidden']"
+    ],
+    "description": "Access Hidden using script"
+   },
+   "['PlayerDefaults']": {
+    "scope": "lua",
+    "prefix": ["game['PlayerDefaults']"],
+    "body": [
+        "game['PlayerDefaults']"
+    ],
+    "description": "Access Player Defaults"
+   },
+   "['PlayerGUI']": {
+    "scope": "lua",
+    "prefix": ["game['PlayerGUI']"],
+    "body": [
+        "game['PlayerGUI']"
+    ],
+    "description": "Access PlayerGUI"
+   },
+   "['Players'].LocalPlayer": {
+    "scope": "lua",
+    "prefix": "game['Players'].LocalPlayer",
+    "body": [
+        "game['Players'].LocalPlayer"
+    ],
+    "description": "Get LocalPlayer."
+   }
+}
