@@ -1,0 +1,195 @@
+{
+    ".ChildAdded": {
+        "scope": "lua",
+        "prefix": [".ChildAdded"],
+        "body": [
+            ".ChildAdded"
+        ],
+        "description": "Fires when a child instance is added."
+
+    },
+    ".ChildRemoved": {
+        "scope": "lua",
+        "prefix": [".ChildRemoved"],
+        "body": [
+            ".ChildRemoved"
+        ],
+        "description": "Fires when a child instance is removed."
+    },
+    ".Clicked": {
+        "scope": "lua",
+        "prefix": [".Clicked"],
+        "body": [
+            ".Clicked"
+        ],
+        "description": "Fires when the instance is clicked by a player."
+    },
+    ".MouseEnter": {
+        "scope": "lua",
+        "prefix": [".MouseEnter"],
+        "body": [
+            ".MouseEnter"
+        ],
+        "description": "Fires when the mouse enters the instance."
+    },
+    ".MouseExit": {
+        "scope": "lua",
+        "prefix": [".MouseExit"],
+        "body": [
+            ".MouseExit"
+        ],
+        "description": "Fires when the mouse enters the instance."
+    },
+    ".Touched": {
+        "scope": "lua",
+        "prefix": [".Touched"],
+        "body": [
+            ".Touched"
+        ],
+        "description": "Fires when the instance was touched by another instance."
+    },
+    ".TouchEnded": {
+        "scope": "lua",
+        "prefix": [".TouchEnded"],
+        "body": [
+            ".TouchEnded"
+        ],
+        "description": "Fires when the instance is no longer being touched by another instance."
+    },
+    ".New": {
+        "scope": "lua",
+        "prefix": [".New"],
+        "body": [
+            ".New"
+        ],
+        "description": "Creates a new Instance"
+    },
+    ":Clone": {
+        "scope": "lua",
+        "prefix": [":Clone"],
+        "body": [
+            ":Clone"
+        ],
+        "description": "Clones the instance"
+    },
+    ":Destroy": {
+        "scope": "lua",
+        "prefix": [":Destroy"],
+        "body": [
+            ":Destroy"
+        ],
+        "description": "Deletes the instance"
+    },
+    ":GetParent": {
+        "scope": "lua",
+        "prefix": [":GetParent"],
+        "body": [
+            ":GetParent"
+        ],
+        "description": "Returns the parent of the instance (same as accessing the .Parent property)."
+    },
+    ":SetParent": {
+        "scope": "lua",
+        "prefix": [":SetParent"],
+        "body": [
+            ":SetParent"
+        ],
+        "description": "Sets the parent of the instance (same as setting the .Parent property)"
+    },
+    ":IsA": {
+        "scope": "lua",
+        "prefix": [":IsA"],
+        "body": [
+            ":IsA("")"
+        ],
+        "description": "Returns whether or not the instance is the specified class."
+    },
+    ":IsDecendantOf": {
+        "scope": "lua",
+        "prefix": [":IsDecendantOf"],
+        "body": [
+            ":IsDecendantOf"
+        ],
+        "description": "Returns whether or not the instance is a descendant (child, child of child, etc) of the specified instance."
+    },
+    ":FindChild": {
+        "scope": "lua",
+        "prefix": [":FindChild"],
+        "body": [
+            ":FindChild"
+        ],
+        "description": "Attempts to find the first child instance with the specified name (nil if not found)."
+    },
+    ":FindChildByClass": {
+        "scope": "lua",
+        "prefix": [":FindChildByClass"],
+        "body": [
+            ":FindChildByClass"
+        ],
+        "description": "Attempts to find the first child instance with the specified class (nil if not found)."
+    },
+    ":GetChildren": {
+        "scope": "lua",
+        "prefix": [":GetChildren"],
+        "body": [
+            ":GetChildren"
+        ],
+        "description": "Returns an array of all the children instances parented to the instance."
+    },
+    ":GetChildrenOfClass": {
+        "scope": "lua",
+        "prefix": [":GetChildrenOfClass"],
+        "body": [
+            ":GetChildrenOfClass"
+        ],
+        "description": "Returns an array of all the children instances with the specified class."
+    },
+    ".CanReparent": {
+        "scope": "lua",
+        "prefix": [".CanReparent"],
+        "body": [
+            ".CanReparent"
+        ],
+        "description": "Returns whether this instance can be reparented/deleted or not."
+    },
+    ".ClassName": {
+        "scope": "lua",
+        "prefix":[ ".ClassName"],
+        "body": [
+            ".ClassName"
+        ],
+        "description": "Returns the name of the class."
+    },
+    ".Item": {
+        "scope": "lua",
+        "prefix": [".Item"],
+        "body": [
+            ".Item"
+        ],
+        "description": "Specifies the name of an instance."
+    },
+    ".Name": {
+        "scope": "lua",
+        "prefix": [".Name"],
+        "body": [
+            ".Name"
+        ],
+        "description": "Specifies the name of an instance."
+    },
+    ".Parent": {
+        "scope": "lua",
+        "prefix": [".Parent"],
+        "body": [
+            ".Parent"
+        ],
+        "description": "Specifies the parent instance of an instance."
+    },
+    ".Shared": {
+        "scope": "lua",
+        "prefix": [".Shared"],
+        "body": [
+            ".Shared"
+        ],
+        "description": "An empty table you can use to hold metadata about anything on any object or player you want."
+    }
+}

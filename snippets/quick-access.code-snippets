@@ -41,16 +41,6 @@
 		"body": ["Instance.New('$1')"],
 		"description": "Create new Instance."
 	},
-	"Touched": {
-		"scope": "lua",
-		"prefix": ["Touched"],
-		"body": [
-			"${1}.Touched:Connect(${2:function(hit)",
-			"\t",
-			"end})"
-		],
-		"description": "On Instance Touched."
-	},
     "Rendered": {
 		"scope": "lua",
 		"prefix": ["Rendered"],
@@ -60,62 +50,6 @@
 			"end})"
 		],
 		"description": "On Game rendered."
-	},
-	"Clicked": {
-		"scope": "lua",
-		"prefix": ["Clicked"],
-		"body": [
-			"${1}.Clicked:Connect(${2:function(plr)",
-			"\t",
-			"end})"
-		],
-		"description": "On Instance Clicked."
-	},
-	"ChildAdded": {
-		"scope": "lua",
-		"prefix": [".ChildAdded"],
-		"body": [
-			"${1:object}.ChildAdded:Connect(${2:function(child)",
-			"\t",
-			"end})"
-		],
-		"description": "Gets triggered when a child instance is added."
-	},
-	"ChildRemoved": {
-		"scope": "lua",
-		"prefix": [".ChildRemoved"],
-		"body": [
-			"${1:object}.ChildRemoved:Connect(${2:function(child)",
-			"\t",
-			"end})"
-		],
-		"description": "Gets triggered when a child instance is removed."
-	},
-	"TouchEnded": {
-		"scope": "lua",
-		"prefix": ["TouchEnded"],
-		"body": [
-			"${1:object}.TouchEnded:Connect(${2:function(hit)",
-			"\t",
-			"end})"
-		],
-		"description": "Gets triggered when this instance is stopped being touched by another instance."
-	},
-	":Clone": {
-		"scope": "lua",
-		"prefix": [":Clone"],
-		"body": [
-			":Clone('$2')"
-		],
-		"description": "Clone object."
-	},
-	":Destroy": {
-		"scope": "lua",
-		"prefix": [":Destroy"],
-		"body": [
-			":Destroy()"
-		],
-		"description": "Destroy object."
 	},
 	".LookAt": {
 		"scope": "lua",
@@ -132,102 +66,6 @@
 			".Translate($1)"
 		],
 		"description": "Moves the transform in the direction and distance of translation."
-	},
-	":FindChild": {
-		"scope": "lua",
-		"prefix": [":FindChild"],
-		"body": [
-			":FindChild('$1')"
-		],
-		"description": "Find child by name in object."
-	},
-	":FindChildByClass": {
-		"scope": "lua",
-		"prefix": [":FindChildByClass"],
-		"body": [
-			":FindChildByClass('$1')"
-		],
-		"description": "Find child by class in object."
-	},
-	":GetChildren": {
-		"scope": "lua",
-		"prefix": [":GetChildren"],
-		"body": [
-			":GetChildren()"
-		],
-		"description": "Get children in object."
-	},
-	":GetChildrenOfClass": {
-		"scope": "lua",
-		"prefix": [":GetChildrenOfClass"],
-		"body": [
-			":GetChildrenOfClass('$1')"
-		],
-		"description": "Get children of class in object."
-	},
-	":GetParent": {
-		"scope": "lua",
-		"prefix": [":GetParent"],
-		"body": [
-			":GetParent()"
-		],
-		"description": "Get object's parent."
-	},
-	":IsA": {
-		"scope": "lua",
-		"prefix": [":IsA"],
-		"body": [
-			":IsA('$1')"
-		],
-		"description": "Returns whether the instance is of the specified class."
-	},
-	":IsDescendantOf": {
-		"scope": "lua",
-		"prefix": [":IsDescendantOf"],
-		"body": [
-			":IsDescendantOf($1)"
-		],
-		"description": "Returns true if the instance is a descendant (child, child of child, etc.) of the specified instance."
-	},
-	":SetParent": {
-		"scope": "lua",
-		"prefix": [":SetParent"],
-		"body": [
-			":SetParent($1)"
-		],
-		"description": "Set parent of the object."
-	},
-	".CanReparent": {
-		"scope": "lua",
-		"prefix": [".CanReparent"],
-		"body": [
-			".CanReparent"
-		],
-		"description": "Returns whether this instance can be reparented/deleted or not."
-	},
-	".ClassName": {
-		"scope": "lua",
-		"prefix": [".ClassName"],
-		"body": [
-			".ClassName"
-		],
-		"description": "Returns the name of the class."
-	},
-	".Name": {
-		"scope": "lua",
-		"prefix": [".Name"],
-		"body": [
-			".Name"
-		],
-		"description": "Specifies the name of an instance."
-	},
-	".Parent": {
-		"scope": "lua",
-		"prefix": [".Parent"],
-		"body": [
-			".Parent"
-		],
-		"description": "Specifies the parent instance of an instance."
 	},
     ".Forward": {
 		"scope": "lua",
@@ -300,14 +138,6 @@
 			".Size"
 		],
 		"description": "Specifies the size of an instance."
-	},
-	".Shared": {
-		"scope": "lua",
-		"prefix": [".Shared"],
-		"body": [
-			"${1}.Shared"
-		],
-		"description": "An empty table you can use to hold metadata about anything on any object or player you want. Does not sync client <-> server."
 	},
 	".Gravity": {
 		"scope": "lua",
