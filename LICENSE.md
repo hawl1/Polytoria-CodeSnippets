@@ -1,7 +1,9 @@
 MIT License
 
 Copyright &copy; 2023 SK-Fast
+
 Copyright &copy; 2024 ItsLuiggiYahoo
+
 Copyright &copy; 2024 hawl1
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
