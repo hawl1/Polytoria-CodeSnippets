@@ -28,7 +28,7 @@
         "prefix": ["game['ScriptService']"],
         "body": [
             "game['ScriptService']"
-        ],.
+        ],
         "description": "Access the ScriptService, using a script"
    },
    "['Hidden']": {

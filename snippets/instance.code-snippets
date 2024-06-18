@@ -100,7 +100,7 @@
         "scope": "lua",
         "prefix": [":IsA"],
         "body": [
-            ":IsA("")"
+            ":IsA('')"
         ],
         "description": "Returns whether or not the instance is the specified class."
     },
