@@ -3,9 +3,9 @@
         "scope": "lua",
         "prefix": ["npc.Died"],
         "body": [
-            "game["Environment"]["NPC"].Died:Connect(function ()
-           
-        end)"
+            "game['Environment']['${1:NPC}'].Died:Connect(function ()",
+            "\t${2}",
+            "end)",
         ],
         "description": "Fires when the NPC dies."
     },
@@ -21,7 +21,7 @@
         "scope": "lua",
         "prefix": ["npc:LoadAppearance"],
         "body": [
-            "npc:LoadAppearance()"
+            "npc:LoadAppearance(${1})"
         ],
         "description": "Loads the specified user ID's avatar on the NPC."
     },
@@ -29,7 +29,7 @@
         "scope": "lua",
         "prefix": ["npc:Respawn()"],
         "body": [
-            "npc:Respawn()"
+            "${1}:Respawn()"
         ],
         "description": "Respawn the NPC"
     },
@@ -37,7 +37,7 @@
         "scope": "lua",
         "prefix": ["npc.Anchored"],
         "body": [
-            "npc.Anchored"
+            "${1}.Anchored"
         ],
         "description": "Check if NPC is anchored"
     },
