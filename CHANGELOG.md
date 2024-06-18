@@ -1,6 +1,5 @@
 # Change Log
 
-## [0.0.13]
+## [0.0.14]
 
-- Fixed syntax errors
-- Added sound snippets
+- Fixed README stuff

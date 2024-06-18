@@ -3,7 +3,7 @@
 ![logo](icon.png)
 
 [![made-with-javascript](https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg)](https://www.javascript.com)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hawl1/Polytoria-CodeSnippets/graphs/commit-activity)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ---
 
@@ -16,7 +16,7 @@ Now your Polytoria games will fly with the new and updated Snippets.
 > [!IMPORTANT]
 > This extension was forked and updated to work with newer versions of both Polytoria Creator and Visual Code Studio, the original code belongs to ItsLuiggiYahoo and DevPixels(aka SK-FAST)
 
-[Download Extension](https://marketplace.visualstudio.com/items?itemName=ItsLuiggiYahoo.polytoria-lua-snippets)
+[Download Extension](https://marketplace.visualstudio.com/items?itemName=Hawli.polytoria-lua-snippets)
 
 ---
 Welcome to the house of the new and updated Polytoria VSCode Snippets.

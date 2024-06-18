@@ -2,17 +2,17 @@
   "name": "polytoria-lua-snippets",
   "displayName": "Polytoria Lua Snippets ",
   "description": "Code snippet to create Polytoria game faster.",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "engines": {
     "vscode": "^1.85.0"
   },
-  "publisher": "ItsLuiggiYahoo",
+  "publisher": "Hawli",
   "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
   "repository": {
-    "url": "https://github.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/issues"
+    "url": "https://github.com/hawl1/Polytoria-CodeSnippets/issues"
   },
   "contributes": {
     "snippets": [
