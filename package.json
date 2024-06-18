@@ -2,43 +2,120 @@
   "name": "polytoria-lua-snippets",
   "displayName": "Polytoria Lua Snippets ",
   "description": "Code snippet to create Polytoria game faster.",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "engines": {
     "vscode": "^1.85.0"
-   },
-   "publisher": "ItsLuiggiYahoo",
-   "icon": "icon.png",
+  },
+  "publisher": "ItsLuiggiYahoo",
+  "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
   "repository": {
-    "url" : "https://github.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/issues"
+    "url": "https://github.com/ItsLuiggiYahoo/Polytoria-CodeSnippets/issues"
   },
   "contributes": {
-    "snippets": [{"language":"lua","path":"./snippets/vector3.code-snippets"},
-    {"language":"lua","path":"./snippets/vector2.code-snippets"},
-    {"language":"lua","path":"./snippets/tween.code-snippets"},
-    {"language":"lua","path":"./snippets/netmessage.code-snippets"},
-    {"language":"lua","path":"./snippets/json.code-snippets"},
-    {"language":"lua","path":"./snippets/npc.code-snippets"},
-    {"language":"lua","path":"./snippets/input.code-snippets"},
-    {"language":"lua","path":"./snippets/http.code-snippets"},
-    {"language":"lua","path":"./snippets/instance.code-snippets"},
-    {"language":"lua","path":"./snippets/datastore.code-snippets"},
-    {"language":"lua","path":"./snippets/colors.code-snippets"},
-    {"language":"lua","path":"./snippets/chat.code-snippets"},
-    {"language":"lua","path":"./snippets/camera.code-snippets"},
-    {"language":"lua","path":"./snippets/v-t-align.code-snippets"},
-    {"language":"lua","path":"./snippets/tweentype.code-snippets"},
-    {"language":"lua","path":"./snippets/textfont.code-snippets"},
-    {"language":"lua","path":"./snippets/t-justify copy.code-snippets"},
-    {"language":"lua","path":"./snippets/skypreset.code-snippets"},
-    {"language":"lua","path":"./snippets/partshape.code-snippets"},
-    {"language":"lua","path":"./snippets/partmaterial.code-snippets"},
-    {"language":"lua","path":"./snippets/h-align.code-snippets"},
-    {"language":"lua","path":"./snippets/cameramode.code-snippets"},
-    {"language":"lua","path":"./snippets/anchorpreset.code-snippets"},
-    {"language":"lua","path":"./snippets/files.code-snippets"},
-    {"language":"lua","path":"./snippets/sound.code-snippets"}]
-   }
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/vector3.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/vector2.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/tween.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/netmessage.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/json.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/npc.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/input.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/http.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/instance.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/datastore.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/colors.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/chat.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/camera.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/v-t-align.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/tweentype.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/textfont.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/t-justify copy.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/skypreset.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/partshape.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/partmaterial.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/h-align.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/cameramode.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/anchorpreset.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/files.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/sound.code-snippets"
+      }
+    ]
+  }
 }
