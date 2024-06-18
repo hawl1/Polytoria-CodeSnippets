@@ -1,0 +1,28 @@
+{
+    "sound.Loaded": {
+		"scope": "lua",
+		"prefix": ["sound.Loaded"],
+		"body": [
+			"${1:sound}.Loaded:Connect(function ()",
+			"\t${2:sound.Play()}",
+			"end)"
+		],
+		"description": "Do something when sound loads."
+	},
+	"sound.Play": {
+		"scope": "lua",
+		"prefix": ["sound.Play"],
+		"body": [
+			"${1:sound}.Play()"
+		],
+		"description": "Play sound."
+	},
+	"sound.Stop": {
+		"scope": "lua",
+		"prefix": ["sound.Stop"],
+		"body": [
+			"${1:sound}.Stop()"
+		],
+		"description": "Stop sound."
+	}
+}
