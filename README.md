@@ -34,8 +34,8 @@ Simple! Install it on the Visual Studio Marketplace, open your script and good c
 Create a issue, it's simple, you can create one clicking on the tab called issues above the files.
 
 **TO-DO**
-- [ ] Update some of the snippets
-- [x] Add GUI snippets
+- [ ] Add snippets for decals
+- [ ] Add snippets for lights
 
 **NOTE:**
 The code might give error, but the code is not wrong, all of the code is not included in the official Lua syntax, but it will work as normal on Polytoria Creator.
