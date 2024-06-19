@@ -1,28 +1,108 @@
 {
-    "sound.Loaded": {
+    ".Loaded": {
 		"scope": "lua",
 		"prefix": ["sound.Loaded"],
 		"body": [
-			"${1:sound}.Loaded:Connect(function ()",
+			".Loaded:Connect(function ()",
 			"\t${2:sound.Play()}",
 			"end)"
 		],
-		"description": "Do something when sound loads."
+		"description": "The event that is fired when the sound is loaded from the server."
 	},
 	"sound.Play": {
 		"scope": "lua",
 		"prefix": ["sound.Play"],
 		"body": [
-			"${1:sound}.Play()"
+			".Play()"
 		],
-		"description": "Play sound."
+		"description": "Plays the sound."
 	},
-	"sound.Stop": {
+	".Stop": {
 		"scope": "lua",
-		"prefix": ["sound.Stop"],
+		"prefix": [".Stop"],
 		"body": [
-			"${1:sound}.Stop()"
+			".Stop()"
 		],
-		"description": "Stop sound."
+		"description": "Stops playing the sound."
+	},
+	".Autoplay": {
+		"scope": "lua",
+		"prefix": [".Autoplay"],
+		"body": [
+			".Autoplay"
+		],
+		"description": "Determines whether the sound should start playing automatically."
+	},
+	".Length": {
+		"scope": "lua",
+		"prefix": [".Length"],
+		"body": [
+			".Length"
+		],
+		"description": "Returns the length of the currently loaded audio."
+	},
+	".Loop": {
+		"scope": "lua",
+		"prefix": [".Loop"],
+		"body": [
+			".Loop"
+		],
+		"description": "Determines whether the sound should loop or not."
+	},
+	".Pitch": {
+		"scope": "lua",
+		"prefix": [".Pitch"],
+		"body": [
+			".Pitch"
+		],
+		"description": "The pitch of the sound."
+	},
+	".PlayInWorld": {
+		"scope": "lua",
+		"prefix": [".PlayInWorld"],
+		"body": [
+			".PlayInWorld"
+		],
+		"description": "When enabled, the sound will be played in 3D world space rather than having the same volume for everyone."
+	},
+	".MaxDistance": {
+		"scope": "lua",
+		"prefix": [".MaxDistance"],
+		"body": [
+			".MaxDistance"
+		],
+		"description": "Specifies how far the player must be from the sound for it to stop playing, if the PlayInWorld property is set to true."
+	},
+	".Playing": {
+		"scope": "lua",
+		"prefix": [".Playing"],
+		"body": [
+			".Playing"
+		],
+		"description": "Determines whether the sound is currently playing or not."
+	},
+	".SoundID": {
+		"scope": "lua",
+		"prefix": [".SoundID"],
+		"body": [
+			".SoundID"
+		],
+		"description": "The asset ID of the sound."
+	},
+	".Time": {
+		"scope": "lua",
+		"prefix": [".Time"],
+		"body": [
+			".Time"
+		],
+		"description": "The time position the track is currently on."
+	},
+	".Volume": {
+		"scope": "lua",
+		"prefix": [".Volume"],
+		"body": [
+			".Volume"
+		],
+		"description": "The volume of the sound."
 	}
 }

@@ -3,7 +3,9 @@
         "scope": "lua",
         "prefix": [".ChildAdded"],
         "body": [
-            ".ChildAdded"
+            ".ChildAdded:Connect(function(child)",
+            "\t${1}",
+            "end)"
         ],
         "description": "Fires when a child instance is added."
 
@@ -12,7 +14,9 @@
         "scope": "lua",
         "prefix": [".ChildRemoved"],
         "body": [
-            ".ChildRemoved"
+            ".ChildRemoved:Connect(function(child)",
+            "\t${1}",
+            "end)"
         ],
         "description": "Fires when a child instance is removed."
     },
@@ -20,7 +24,9 @@
         "scope": "lua",
         "prefix": [".Clicked"],
         "body": [
-            ".Clicked"
+            ".Clicked:Connect(function(plr)",
+            "\t${1}",
+            "end)"
         ],
         "description": "Fires when the instance is clicked by a player."
     },
@@ -28,7 +34,9 @@
         "scope": "lua",
         "prefix": [".MouseEnter"],
         "body": [
-            ".MouseEnter"
+            ".MouseEnter:Connect(function()",
+            "\t${1}",
+            "end"
         ],
         "description": "Fires when the mouse enters the instance."
     },
@@ -36,7 +44,9 @@
         "scope": "lua",
         "prefix": [".MouseExit"],
         "body": [
-            ".MouseExit"
+            ".MouseExit:Connect(function()",
+            "\t${1}",
+            "end"
         ],
         "description": "Fires when the mouse enters the instance."
     },
@@ -44,7 +54,9 @@
         "scope": "lua",
         "prefix": [".Touched"],
         "body": [
-            ".Touched"
+            ".Touched:Connect(function(hit)",
+            "\t${1}",
+            "end)",
         ],
         "description": "Fires when the instance was touched by another instance."
     },
@@ -52,7 +64,9 @@
         "scope": "lua",
         "prefix": [".TouchEnded"],
         "body": [
-            ".TouchEnded"
+            ".TouchEnded:Connect(function(hit)",
+            "\t${1}",
+            "end)",
         ],
         "description": "Fires when the instance is no longer being touched by another instance."
     },
@@ -60,7 +74,7 @@
         "scope": "lua",
         "prefix": [".New"],
         "body": [
-            ".New"
+            ".New('${1}')"
         ],
         "description": "Creates a new Instance"
     },
@@ -68,7 +82,7 @@
         "scope": "lua",
         "prefix": [":Clone"],
         "body": [
-            ":Clone"
+            ":Clone()"
         ],
         "description": "Clones the instance"
     },
@@ -76,7 +90,7 @@
         "scope": "lua",
         "prefix": [":Destroy"],
         "body": [
-            ":Destroy"
+            ":Destroy()"
         ],
         "description": "Deletes the instance"
     },
@@ -92,7 +106,7 @@
         "scope": "lua",
         "prefix": [":SetParent"],
         "body": [
-            ":SetParent"
+            ":SetParent()"
         ],
         "description": "Sets the parent of the instance (same as setting the .Parent property)"
     },
@@ -100,7 +114,7 @@
         "scope": "lua",
         "prefix": [":IsA"],
         "body": [
-            ":IsA('')"
+            ":IsA('${1}')"
         ],
         "description": "Returns whether or not the instance is the specified class."
     },
@@ -108,7 +122,7 @@
         "scope": "lua",
         "prefix": [":IsDecendantOf"],
         "body": [
-            ":IsDecendantOf"
+            ":IsDecendantOf('${1}')"
         ],
         "description": "Returns whether or not the instance is a descendant (child, child of child, etc) of the specified instance."
     },
@@ -116,7 +130,7 @@
         "scope": "lua",
         "prefix": [":FindChild"],
         "body": [
-            ":FindChild"
+            ":FindChild('${1}')"
         ],
         "description": "Attempts to find the first child instance with the specified name (nil if not found)."
     },
@@ -124,7 +138,7 @@
         "scope": "lua",
         "prefix": [":FindChildByClass"],
         "body": [
-            ":FindChildByClass"
+            ":FindChildByClass('${1}')"
         ],
         "description": "Attempts to find the first child instance with the specified class (nil if not found)."
     },
@@ -132,7 +146,7 @@
         "scope": "lua",
         "prefix": [":GetChildren"],
         "body": [
-            ":GetChildren"
+            ":GetChildren()"
         ],
         "description": "Returns an array of all the children instances parented to the instance."
     },
@@ -140,7 +154,7 @@
         "scope": "lua",
         "prefix": [":GetChildrenOfClass"],
         "body": [
-            ":GetChildrenOfClass"
+            ":GetChildrenOfClass('${1}')"
         ],
         "description": "Returns an array of all the children instances with the specified class."
     },
@@ -196,7 +210,7 @@
         "scope": "lua",
         "prefix": [".LookAt"],
         "body": [
-            ".LookAt()"
+            ".LookAt(${1})"
         ],
         "description": "Rotates the DynamicInstance so that the forward vector looks at the target."
     },
@@ -204,7 +218,7 @@
         "scope": "lua",
         "prefix": [".Translate"],
         "body": [
-            ".Translate"
+            ".Translate(${1})"
         ],
         "description": "Moves the transform in the direction and distance of translation."
     },

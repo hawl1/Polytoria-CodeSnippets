@@ -3,9 +3,9 @@
 		"scope": "lua",
 		"prefix": ["Input.KeyDown"],
 		"body": [
-			"Input.KeyDown:Connect(${1:function(key)",
-			"\tprint(key)",
-			"end})"
+			"Input.KeyDown:Connect(function(key)",
+			"\t${1}",
+			"end)"
 		],
 		"description": "Gets triggered when a key was pressed.",
 	},
@@ -13,9 +13,9 @@
 		"scope": "lua",
 		"prefix": ["Input.KeyUp"],
 		"body": [
-			"Input.KeyUp:Connect(${1:function(key)",
-			"\tprint(key)",
-			"end})"
+			"Input.KeyUp:Connect(function(key)",
+			"\t${1}",
+			"end)"
 		],
 		"description": "Gets triggered when a key was released.",
 	},
