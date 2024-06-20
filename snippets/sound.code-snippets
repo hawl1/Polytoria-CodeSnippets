@@ -1,7 +1,7 @@
 {
     ".Loaded": {
 		"scope": "lua",
-		"prefix": ["sound.Loaded"],
+		"prefix": [".Loaded"],
 		"body": [
 			".Loaded:Connect(function ()",
 			"\t${2:sound.Play()}",
@@ -9,9 +9,9 @@
 		],
 		"description": "The event that is fired when the sound is loaded from the server."
 	},
-	"sound.Play": {
+	".Play": {
 		"scope": "lua",
-		"prefix": ["sound.Play"],
+		"prefix": [".Play"],
 		"body": [
 			".Play()"
 		],
