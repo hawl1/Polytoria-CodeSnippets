@@ -1,0 +1,34 @@
+{
+	".ImageID": {
+		"scope": "lua",
+		"prefix": [".ImageID"],
+		"body": [
+			".ImageID"
+		],
+		"description": "Specifies the image asset ID of the decal."
+	},
+	".ImageType": {
+		"scope": "lua",
+		"prefix": [".ImageType"],
+		"body": [
+			".ImageType"
+		],
+		"description": "The type of image to be used."
+	},
+	".TextureOffset": {
+		"scope": "lua",
+		"prefix": [".TextureOffset"],
+		"body": [
+			".TextureOffset"
+		],
+		"description": "The offset of the texture on the decal."
+	},
+	".TextureScale": {
+		"scope": "lua",
+		"prefix": [".TextureScale"],
+		"body": [
+			".TextureScale"
+		],
+		"description": "The scale of the texture on the decal."
+	}
+}

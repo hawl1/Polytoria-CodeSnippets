@@ -1,0 +1,42 @@
+{
+	"ImageType.Asset": {
+		"scope": "lua",
+		"prefix": ["ImageType.Asset"],
+		"body": [
+			"ImageType.Asset"
+		],
+		"description": "ImageType Asset"
+	},
+	"ImageType.AssetThumbnail": {
+		"scope": "lua",
+		"prefix": ["ImageType.AssetThumbnail"],
+		"body": [
+			"ImageType.AssetThumbnail"
+		],
+		"description": "ImageType AssetThumbnail"
+	},
+	"ImageType.PlaceThumbnail": {
+		"scope": "lua",
+		"prefix": ["ImageType.PlaceThumbnail"],
+		"body": [
+			"ImageType.PlaceThumbnail"
+		],
+		"description": "ImageType PlaceThumbnail"
+	},
+	"ImageType.UserAvatarHeadshot": {
+		"scope": "lua",
+		"prefix": ["ImageType.UserAvatarHeadshot"],
+		"body": [
+			"ImageType.UserAvatarHeadshot"
+		],
+		"description": "ImageType UserAvatarHeadshot"
+	},
+	"ImageType.GuildIcon": {
+		"scope": "lua",
+		"prefix": ["ImageType.GuildIcon"],
+		"body": [
+			"ImageType.GuildIcon"
+		],
+		"description": "ImageType GuildIcon"
+	}
+}
