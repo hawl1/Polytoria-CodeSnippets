@@ -158,5 +158,5 @@
 			"Vector3.Normalize(${1:value})"
 		],
 		"description": "Makes this vector have a magnitude of 1."
-	},
+	}
 }
