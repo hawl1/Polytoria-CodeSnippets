@@ -115,6 +115,30 @@
       {
         "language": "lua",
         "path": "./snippets/sound.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/decal.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/imagetype.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/gui.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/physics.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/pointlight.code-snippets"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/spotlight.code-snippets"
       }
     ]
   }
