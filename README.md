@@ -36,6 +36,7 @@ Create a issue, it's simple, you can create one clicking on the tab called issue
 **TO-DO**
 - [x] Add snippets for decals
 - [ ] Add snippets for lights
+- [ ] Add snippets for particles
 
 **NOTE:**
 The code might give error, but the code is not wrong, all of the code is not included in the official Lua syntax, but it will work as normal on Polytoria Creator.
