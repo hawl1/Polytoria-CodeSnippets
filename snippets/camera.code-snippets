@@ -1,130 +1,130 @@
 {
-    "Camera": {
+    "game['Environment']['Camera']": {
         "scope": "lua",
-        "prefix": ["Camera"],
+        "prefix": ["game['Environment']['Camera']"],
         "body": [
-            "Camera"
+            "game['Environment']['Camera']"
         ],
         "description": "Camera Class - Use this to control the player's camera."
     },
-    "Camera.Distance": {
+    "game['Environment']['Camera'].Distance": {
         "scope": "lua",
-        "prefix": ["Camera.Distance"],
+        "prefix": ["game['Environment']['Camera'].Distance"],
         "body": [
-            "Camera.Distance"
+            "game['Environment']['Camera'].Distance"
         ],
         "description": ""
     },
-    "Camera.FOV": {
+    "game['Environment']['Camera'].FOV": {
         "scope": "lua",
-        "prefix": ["Camera.FOV"],
+        "prefix": ["game['Environment']['Camera'].FOV"],
         "body": [
-            "Camera.FOV"
+            "game['Environment']['Camera'].FOV"
         ]
     },
-    "Camera.FastFlySpeed": {
+    "game['Environment']['Camera'].FastFlySpeed": {
         "scope": "lua",
-        "prefix": ["Camera.FastFlySpeed"],
+        "prefix": ["game['Environment']['Camera'].FastFlySpeed"],
         "body": [
-            "Camera.FastFlySpeed"
+            "game['Environment']['Camera'].FastFlySpeed"
         ]
     },
-    "Camera.FlySpeed": {
+    "game['Environment']['Camera'].FlySpeed": {
         "scope": "lua",
-        "prefix": ["Camera.FlySpeed"],
+        "prefix": ["game['Environment']['Camera'].FlySpeed"],
         "body": [
-            "Camera.FlySpeed"
+            "game['Environment']['Camera'].FlySpeed"
         ]
     },
-    "Camera.FollowLerp": {
+    "game['Environment']['Camera'].FollowLerp": {
         "scope": "lua",
-        "prefix": ["Camera.FollowLerp"],
+        "prefix": ["game['Environment']['Camera'].FollowLerp"],
         "body": [
-            "Camera.FollowLerp"
+            "game['Environment']['Camera'].FollowLerp"
         ]
     },
-    "Camera.FreeLookSensitivity": {
+    "game['Environment']['Camera'].FreeLookSensitivity": {
         "scope": "lua",
-        "prefix": ["Camera.FreeLookSensitivity"],
+        "prefix": ["game['Environment']['Camera'].FreeLookSensitivity"],
         "body": [
-            "Camera.FreeLookSensitivity"
+            "game['Environment']['Camera'].FreeLookSensitivity"
         ]
     },
-    "Camera.HorizontalSpeed": {
+    "game['Environment']['Camera'].HorizontalSpeed": {
         "scope": "lua",
-        "prefix": ["Camera.HorizontalSpeed"],
+        "prefix": ["game['Environment']['Camera'].HorizontalSpeed"],
         "body": [
-            "Camera.HorizontalSpeed"
+            "game['Environment']['Camera'].HorizontalSpeed"
         ]
     },
-    "Camera.IsFirstPerson": {
+    "game['Environment']['Camera'].IsFirstPerson": {
         "scope": "lua",
-        "prefix": ["Camera.IsFirstPerson"],
+        "prefix": ["game['Environment']['Camera'].IsFirstPerson"],
         "body": [
-            "Camera.IsFirstPerson"
+            "game['Environment']['Camera'].IsFirstPerson"
         ]
     },
-    "Camera.LerpSpeed": {
+    "game['Environment']['Camera'].LerpSpeed": {
         "scope": "lua",
-        "prefix": ["Camera.LerpSpeed"],
+        "prefix": ["game['Environment']['Camera'].LerpSpeed"],
         "body": [
-            "Camera.LerpSpeed"
+            "game['Environment']['Camera'].LerpSpeed"
         ]
     },
-    "Camera.MaxDistance": {
+    "game['Environment']['Camera'].MaxDistance": {
         "scope": "lua",
-        "prefix": ["Camera.MaxDistance"],
+        "prefix": ["game['Environment']['Camera'].MaxDistance"],
         "body": [
-            "Camera.MaxDistance"
+            "game['Environment']['Camera'].MaxDistance"
         ]
     },
-    "Camera.MinDistance": {
+    "game['Environment']['Camera'].MinDistance": {
         "scope": "lua",
-        "prefix": ["Camera.MinDistance"],
+        "prefix": ["game['Environment']['Camera'].MinDistance"],
         "body": [
-            "Camera.MinDistance"
+            "game['Environment']['Camera'].MinDistance"
         ]
     },
-    "Camera.Mode": {
+    "game['Environment']['Camera'].Mode": {
         "scope": "lua",
-        "prefix": ["Camera.Mode"],
+        "prefix": ["game['Environment']['Camera'].Mode"],
         "body": [
-            "Camera.Mode"
+            "game['Environment']['Camera'].Mode"
         ]
     },
-    "Camera.Orthographic": {
+    "game['Environment']['Camera'].Orthographic": {
         "scope": "lua",
-        "prefix": ["Camera.Orthographic"],
+        "prefix": ["game['Environment']['Camera'].Orthographic"],
         "body": [
-            "Camera.Orthographic"
+            "game['Environment']['Camera'].Orthographic"
         ]
     },
-    "Camera.OrthographicSize": {
+    "game['Environment']['Camera'].OrthographicSize": {
         "scope": "lua",
-        "prefix": ["Camera.OrthographicSize"],
+        "prefix": ["game['Environment']['Camera'].OrthographicSize"],
         "body": [
-            "Camera.OrthographicSize"
+            "game['Environment']['Camera'].OrthographicSize"
         ]
     },
-    "Camera.Position": {
+    "game['Environment']['Camera'].Position": {
         "scope": "lua",
-        "prefix": ["Camera.Position"],
+        "prefix": ["game['Environment']['Camera'].Position"],
         "body": [
-            "Camera.Position"
+            "game['Environment']['Camera'].Position"
         ]
     },
-    "Camera.Rotation": {
+    "game['Environment']['Camera'].Rotation": {
         "scope": "lua",
-        "prefix": ["Camera.Rotation"],
+        "prefix": ["game['Environment']['Camera'].Rotation"],
         "body": [
-            "Camera.Rotation"
+            "game['Environment']['Camera'].Rotation"
         ]
     },
-    "Camera.ScrollSensitivity": {
+    "game['Environment']['Camera'].ScrollSensitivity": {
         "scope": "lua",
-        "prefix": ["Camera.ScrollSensitivity"],
+        "prefix": ["game['Environment']['Camera'].ScrollSensitivity"],
         "body": [
-            "Camera.ScrollSensitivity"
+            "game['Environment']['Camera'].ScrollSensitivity"
         ]
     },
     
