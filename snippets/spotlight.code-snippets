@@ -1,0 +1,10 @@
+{
+    ".Angle": {
+        "scope": "lua",
+        "prefix": [".Angle"],
+        "body": [
+            ".Brightness"
+        ],
+        "description": "Specifies the angle of the spotlight."
+    }
+}

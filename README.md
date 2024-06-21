@@ -35,7 +35,7 @@ Create a issue, it's simple, you can create one clicking on the tab called issue
 
 **TO-DO**
 - [x] Add snippets for decals
-- [ ] Add snippets for lights
+- [x] Add snippets for lights
 - [ ] Add snippets for particles
 
 **NOTE:**

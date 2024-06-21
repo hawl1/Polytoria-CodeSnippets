@@ -1,0 +1,26 @@
+{
+    ".Brightness": {
+        "scope": "lua",
+        "prefix": [".Brightness"],
+        "body": [
+            ".Brightness"
+        ],
+        "description": "Specifies how bright/intense the light is."
+    },
+    ".Range": {
+        "scope": "lua",
+        "prefix": [".Range"],
+        "body": [
+            ".Range"
+        ],
+        "description": "Specifies how far out the light can reach."
+    },
+    ".Shadows": {
+        "scope": "lua",
+        "prefix": [".Shadows"],
+        "body": [
+            ".Shadows"
+        ],
+        "description": "Specifies whether this light emits shadows or not."
+    }
+}
